@@ -1,0 +1,5 @@
+import pypandoc
+
+pypandoc.convert_text(content, 'plain', format='md', 
+                      outputfile='TransactionService.txt', 
+                      extra_args=['--standalone'])
